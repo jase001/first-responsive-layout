@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(240, 234, 234);
+    margin-top: 5%;
+    margin-bottom: 8%;
+    height: 150vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.container{
+    height: 60vh;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.article{
+    border-style: none;
+    height: 20vh;
+    width: 65%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.one{
+    display: flex;
+    background-image: url("images/blue\ purple\ background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 60%;
+    padding-left: 1.8em;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.holder{
+    width: 100%;
+    height: 150vh;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section{
+    background-color:white;
+    width: 90%;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.four{
+    background-color: rgb(5, 5, 92);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.four ul{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.setting i{
+    color: gray;
+    width: 4%;
+    font-size: 20px;
+    padding: 0em 2em;
+    
+}
+
+#special{
+    background-color: rgb(121, 30, 121);
+    width: 18%;
+    margin-right: 2%;
+    color: white;
+    height: 6vh;
+    border-radius: 8px;
+}
+
+.four ul li{
+    color: white;
+    width: 30%;
+    list-style: none;
+}
+
+.five, .six, .seven, .eight, .nine, .ten{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 25vh;
+}
+
+.calender{
+    width: 5%;
+    background-color:rgb(214, 216, 218);
+    height: 8vh;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 2em;
+    color: rgb(5, 5, 92);
+    font-weight: bold;
+    padding-top: 0.3em;
+}
+
+.content{
+    margin-right: 7%;
+    width: 65%;
+    height: 10vh;
+}
+
+.essential{
+    color: rgb(5, 5, 92);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.little{
+    font-size: 1rem;
+    color: rgb(140, 143, 146);
+}
+
+.conclude{
+    background-color:rgb(214, 216, 218);
+    width:fit-content;
+    margin-top: 1.8%;
+    margin-left: 2%;
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 4px;
+    font-weight: 900;
+    color: blue;
+}
+
+.tag{
+    width: 9%;
+    margin-right: 2%;
+}
+
+.tag i{
+    margin-right:  1em;
+}
+
+#colab{
+    background-color:rgb(214, 216, 218);
+    width:fit-content;
+    border-style: none;
+    text-align: center;
+    padding: 0.3em 0.8em;
+    border-radius: 4px;
+    font-weight: 600;
+    color: blue;
+    display: inline-block;
+    margin-top: 6%;
+}
+
+.butt{
+    margin-left: 10%;
+    width: 90%; 
+}
+
+.three{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.point{
+    color: black;
+}
+
+.map{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: center;
+}
+
+.map ul li a{
+    width: 120%;
+    text-align: justify;
+    color: rgb(140, 143, 146);
+    text-decoration: none;
+    display: block;
+}
+
+.map  ul .pink{
+    color:blanchedalmond;
+    margin-left: 10%;
+}
+
+.map  ul .purple{
+    color:blueviolet;
+    margin-left: 10%;
+}
+
+.map  ul .blue{
+    color:cyan;
+    margin-left: 10%;
+}
+
+.view{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: center;
+}
+
+.add{
+    margin: 0% 0% 20% 20%;
+    width: fit-content;
+    color: blue;
+    text-align: center;
+}
+
+#road{
+    font-weight: bolder;
+    color: black;
+}
+
+.view ul li{
+    list-style: none;
+    text-align: right;
+    color: rgb(5, 5, 92);
+    font-weight: bold;
+}
+
+
+#huh{
+        margin-top: -20%;
+    }
+/* ipad view*/
+    @media screen and (max-width: 950px){
+        body{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            margin-top: 5%;
+            margin-bottom: 8%;
+        }
+        .article{
+            width: 150px;
+            height: 14vh;
+        }
+
+        .container{
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .container, .holder{
+            font-size: 12px;
+        }
+
+        .holder{
+            width: 565px;
+            height: 100vh;
+            margin: 0;
+        }
+
+       .essential{
+        font-size: 16px;
+       }
+
+       .little{
+        font-size: 14px;
+        height: auto;
+        width: 110%;
+       }
+
+       #special{
+        font-size: 1em;
+        width: 30%;
+        height: 4vh;
+       }
+    }
+
+
+    /* phone view*/
+    @media screen and (max-width: 450px){
+
+        body{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            width: 100%;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .container .article{
+            width: 80%;
+        }
+
+        .three{
+            margin-bottom: 10%;
+        }
+
+        .holder{
+             width: 100%;
+        }
+
+        .holder .section{
+            width: 360px;
+            margin: 0% auto;
+        }
+        
+        .conclude{
+            margin: 0;
+        }
+    }
