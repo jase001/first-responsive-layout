@@ -9,7 +9,7 @@ body{
     background-color: rgb(240, 234, 234);
     margin-top: 5%;
     margin-bottom: 8%;
-    height: 150vh;
+    height: auto;
 }
 
 main{
@@ -144,14 +144,14 @@ main{
 .conclude{
     background-color:rgb(214, 216, 218);
     width:fit-content;
-    margin-top: 1.8%;
-    margin-left: 2%;
+    
     text-align: center;
     padding: 0.3em;
     border-radius: 4px;
     font-weight: 900;
     color: blue;
 }
+
 
 .tag{
     width: 9%;
@@ -314,6 +314,7 @@ main{
             padding: 0;
             margin: 0;
             box-sizing: border-box;
+            height: auto;
         }
 
         main{
@@ -330,15 +331,12 @@ main{
 
 
         .holder{
-            height: 175vh;
+            height: 130vh;
+            width: 100%;
         }
 
         .three{
             margin-bottom: 10%;
-        }
-
-        .holder{
-            width: 100%;
         }
 
         .holder .section{
