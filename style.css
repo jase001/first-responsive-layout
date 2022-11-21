@@ -20,7 +20,7 @@ main{
 }
 
 .container{
-    height: 60vh;
+    height: 80vh;
     margin-left: 20%;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ main{
 
 .article{
     border-style: none;
-    height: 20vh;
+    height: 30vh;
     width: 65%;
     background-color: white;
     border-radius: 2px;
@@ -50,7 +50,7 @@ main{
 
 .holder{
     width: 100%;
-    height: 150vh;
+    height: 160vh;
     gap: 15px;
     display: flex;
     flex-direction: column;
@@ -110,7 +110,6 @@ main{
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    height: 25vh;
 }
 
 .calender{
@@ -161,6 +160,12 @@ main{
 
 .tag i{
     margin-right:  1em;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #colab{
@@ -265,7 +270,7 @@ main{
         }
         .article{
             width: 150px;
-            height: 14vh;
+            height: 22vh;
         }
 
         .container{
@@ -313,14 +318,19 @@ main{
 
         main{
             width: 100%;
-            height: 130%;
+            height: 270vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
 
-        .container .article{
+         .article{
             width: 80%;
+        }
+
+
+        .holder{
+            height: 175vh;
         }
 
         .three{
@@ -328,15 +338,17 @@ main{
         }
 
         .holder{
-             width: 100%;
+            width: 100%;
         }
 
-        .holder .section{git 
+        .holder .section{
             width: 360px;
             margin: 0% auto;
         }
-        
+
         .conclude{
             margin: 0;
+            
         }
     }
+
